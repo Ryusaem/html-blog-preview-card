@@ -3,6 +3,7 @@
   --color-base-bg: #f4d04e;
   --color-card-bg: #ffffff;
   --color-card-border: #111111;
+  --color-card-text: #7f7f7f;
 }
 
 /* --- GLOBAL RESTE ---  */
@@ -15,11 +16,21 @@
 
 h2 {
   font-size: 1.5rem; /* 24px */
-  margin-bottom: 0.75rem; /* 12px */
+  font-weight: 700;
+}
+
+h2:hover {
+  color: var(--color-base-bg);
 }
 
 p {
   font-size: 1rem; /* 16px */
+  line-height: 1.5;
+}
+
+h2,
+p,
+.btn {
   margin-bottom: 0.75rem; /* 12px */
 }
 
@@ -27,6 +38,7 @@ p {
 
 body {
   background-color: var(--color-base-bg);
+  font-family: "Figtree", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +53,7 @@ body {
   padding: 1.5rem; /* 24px */
   border: 0.063rem solid var(--color-card-border);
   border-radius: 1.3rem;
+  box-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 1);
 }
 
 header img {
@@ -49,10 +62,36 @@ header img {
   border-radius: 0.5rem;
 }
 
+main img {
+  width: 10%;
+  border-radius: 50%;
+}
+
 .btn {
-  margin-bottom: 0.75rem; /* 12px */
   background-color: var(--color-base-bg);
   padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.mini-paragraph,
+.name {
+  font-size: 0.875rem; /* 14px */
+}
+
+.paragraph-gray {
+  color: var(--color-card-text);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.name {
+  font-weight: bold;
+  margin-left: 0.6rem;
 }
 
 /* --- FOOTER --- */
@@ -63,16 +102,18 @@ footer {
   text-align: center;
 }
 
-.attribution {
-  font-size: 0.688rem;
+footer a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution {
+  font-size: 0.688rem;
+  margin-bottom: 0.3rem;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 80vw;
+    width: 90vw;
   }
 }
