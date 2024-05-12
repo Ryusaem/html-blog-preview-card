@@ -167,7 +167,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) - Formidable resources to make you learn by "doing" awesome project. Highly recommend it.
+- [Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS/hub) - Formidable resources to make you learn by "doing" awesome project. Highly recommend it. This is the link to the project HUB concernint that project.
 - [Square an Image](https://squareanimage.com/) - This help me to square my avatar to a perfect Square.
 
 ## Author
